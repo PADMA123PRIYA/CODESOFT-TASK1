@@ -3,7 +3,7 @@
 🚢 Titanic Survival Prediction
 Predicting survival of passengers using machine learning models.
 
-📁 Dataset
+📁 Dataset:
 Used Titanic-Dataset.csv
 
 Key features:
@@ -20,7 +20,7 @@ Embarked
 
 And more
 
-🔧 Preprocessing
+🔧 Preprocessing:
 Dropped irrelevant columns:
 
 PassengerId
@@ -43,14 +43,14 @@ Sex
 
 Embarked
 
-🤖 Models Used
+🤖 Models Used:
 Logistic Regression
 
 Decision Tree Classifier
 
 Random Forest (used for feature importance analysis)
 
-📊 Evaluation
+📊 Evaluation:
 Accuracy score
 
 Classification report
@@ -63,7 +63,7 @@ Feature Importance Chart:
 
 Saved as feature_importance.png
 
-🛠️ Tools
+🛠️ Tools:
 Python
 
 pandas
@@ -73,5 +73,8 @@ scikit-learn
 seaborn
 
 matplotlib
+
+
+
 
 
