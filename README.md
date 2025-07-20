@@ -6,33 +6,72 @@ Predicting survival of passengers using machine learning models.
 📁 Dataset
 Used Titanic-Dataset.csv
 
-Features: Age, Sex, Pclass, Fare, Embarked, etc.
+Key features:
+
+Age
+
+Sex
+
+Pclass
+
+Fare
+
+Embarked
+
+And more
 
 🔧 Preprocessing
-Dropped: PassengerId, Name, Ticket, Cabin
+Dropped irrelevant columns:
 
-Filled missing: Age → median, Embarked → mode
+PassengerId
 
-Encoded: Sex, Embarked
+Name
+
+Ticket
+
+Cabin
+
+Filled missing values:
+
+Age → median
+
+Embarked → mode
+
+Encoded categorical features:
+
+Sex
+
+Embarked
 
 🤖 Models Used
 Logistic Regression
 
 Decision Tree Classifier
 
-Random Forest (for feature importance)
+Random Forest (used for feature importance analysis)
 
 📊 Evaluation
-Accuracy & Classification Report
+Accuracy score
 
-Confusion Matrix (saved as confusion_matrix.png)
+Classification report
 
-Feature Importance Chart (saved as feature_importance.png)
+Confusion Matrix:
 
+Saved as confusion_matrix.png
+
+Feature Importance Chart:
+
+Saved as feature_importance.png
 
 🛠️ Tools
 Python
+
 pandas
+
 scikit-learn
+
 seaborn
+
 matplotlib
+
+
