@@ -1,4 +1,4 @@
-# CODESOFT-TASK1
+# CODSOFT-TASK1
 
 🚢 Titanic Survival Prediction
 
